@@ -4,7 +4,9 @@ A simply repo trying to understand how to serialize an igraph graph using cereal
 
 ## Current State
 
-Things compile! Yay. However, the AddressSanitizer usually throws a `allocation-size-too-big` when deserializing.
+Yap, with the latest commit, things seem to work just fine.
+
+For a bit of documentation, also refer to the question on [StackOverflow](https://stackoverflow.com/questions/77493797/how-to-use-cereal-to-serialize-an-igraph-graph-without-getting-addresssanitizer).
 
 ## Reproduce
 
