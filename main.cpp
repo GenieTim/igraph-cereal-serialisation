@@ -329,6 +329,7 @@ int main(int argc, char **argv) {
     cereal::BinaryInputArchive iarchive(is);
 
     igraph_t graph;
+    igraph_empty(&graph, 0, IGRAPH_UNDIRECTED);
     iarchive(graph);
 
     // success?
